@@ -10,10 +10,6 @@ export const metadata = {
   generator: 'v0.dev'
 }
 
-import Script from "next/script"
-import { ThemeProvider } from "@/components/theme-provider"
-import { Pretendard } from "@/lib/fonts"
-
 export default function RootLayout({
   children,
 }: {
